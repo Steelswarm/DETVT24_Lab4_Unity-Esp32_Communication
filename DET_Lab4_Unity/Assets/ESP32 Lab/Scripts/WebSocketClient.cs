@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 public class WebSocketClient : MonoBehaviour
 {
     [SerializeField]
-	private string IPAdress; //The IP Adress of the Server you want to connect to
+	private string IPAdress = "10.204.0.6"; //The IP Adress of the Server you want to connect to
     [SerializeField]
-	private int Port = 8080; //The Port your WebSocket Connection will "talk" to
+	private int Port = 7890; //The Port your WebSocket Connection will "talk" to
     
 	private WebSocket webSocket;
 

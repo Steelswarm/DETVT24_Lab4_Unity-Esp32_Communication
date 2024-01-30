@@ -36,20 +36,12 @@
 // Debug Level from 0 to 4
 #define _WEBSOCKETS_LOGLEVEL_     3
 
-//const char* ssid = "dsv-extrality-lab"; //Enter SSID
-//const char* password = "expiring-unstuck-slider"; //Enter Password
+const char* ssid = "dsv-extrality-lab"; //Enter SSID
+const char* password = "expiring-unstuck-slider"; //Enter Password
 
-// const char* ssid = "dsv-extrality-lab"; //Enter SSID
-// const char* password = "expiring-unstuck-slider"; //Enter Password
+const char* websockets_server_host = "10.204.0.6"; //Enter server address
 
-const char* ssid = "TP-Link_33A7"; //Enter SSID
-const char* password = "53247476"; //Enter Password
-
-//const char* websockets_server_host = "172.20.10.14"; //Enter server address
-//const char* websockets_server_host = "10.204.0.6"; //Enter server address
-const char* websockets_server_host = "192.168.0.189"; //Enter server address
-
-#define WEBSOCKETS_PORT     8080
+#define WEBSOCKETS_PORT     7890 
 
 const uint16_t websockets_server_port = WEBSOCKETS_PORT; // Enter server port
 
