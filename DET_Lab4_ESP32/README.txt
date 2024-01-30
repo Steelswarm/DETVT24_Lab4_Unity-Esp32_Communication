@@ -4,14 +4,8 @@
 ********************************** Server Setup ************************************
 ************************************************************************************
 ** Step 1 - Make sure you have Python 3 installed in your machine (Not python2!)  **
-** 									          **
-** Install Python for Windows:						          **
-** Install Python for Mac:						          **
-** Install Python for Linux:						          **
-**									          **
 ** (Tip: you can check if you have python on your system by running "py" or "py3" **
 **  and checking the version)						          **
-**									          **
 ** Step 2 - Make sure "pip" is recognized if your system			  **
 ** Step 3 - Install the "websocket" python module on your system by running:      **
 **									          **
