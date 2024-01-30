@@ -1,3 +1,5 @@
+![SU Logo](./SU_Logo/SU_Logo.png "Stockholm University")
+
 # Design for Emerging Technologies (DET), Stockholm University VT24 Lab Session 4: Unity-Esp32 Communication
  This repository serves as a template to help students create their own IOT apps using ESP32 and Meta Quest HMDs running applications using the Unity Game Engine.
 
