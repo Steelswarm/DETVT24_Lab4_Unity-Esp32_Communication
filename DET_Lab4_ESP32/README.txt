@@ -31,8 +31,8 @@
 ************************************************************************************
 ** Step 1 - Make sure you have the ArduinoIDE (or equivalent installed)	       	  **
 ** Step 2 - Install the ESP32 plugin by going to "Tools -> Board ->               **
-            Boards Manager" and then searching for "Esp32".                       **
-            Install the "Esp32 by Espresif option 	       	                  **
+**          Boards Manager" and then searching for "Esp32".                       **
+**          Install the "Esp32 by Espresif option 	       	                  **
 ** Step 3 - Open the "Esp32_Client_test" file 				       	  **
 ** Step 4 - Install the "WebSockets2_Generic" library and all it's dependencies   **
 **	    (To do so go to "Tools -> Manage Libraries" and search for it)        **
