@@ -19,7 +19,7 @@
 #error This code is intended to run on the ESP32 platform! Please check your Tools->Board setting.
 #elif ( ARDUINO_ESP32S2_DEV || ARDUINO_FEATHERS2 || ARDUINO_ESP32S2_THING_PLUS || ARDUINO_MICROS2 || \
         ARDUINO_METRO_ESP32S2 || ARDUINO_MAGTAG29_ESP32S2 || ARDUINO_FUNHOUSE_ESP32S2 || \
-        ARDUINO_ADAFRUIT_FEATHER_ESP32S2_NOPSRAM )
+        ARDUINO_ADAFRUIT_FEATHER_ESP32S2_NOPSRAM || ESP32_DEV_MODULE)
 #define BOARD_TYPE      "ESP32-S2"
 #elif ( ARDUINO_ESP32C3_DEV )
 #warning Using ESP32-C3 boards
@@ -39,13 +39,17 @@
 //const char* ssid = "dsv-extrality-lab"; //Enter SSID
 //const char* password = "expiring-unstuck-slider"; //Enter Password
 
-const char* ssid = "dsv-extrality-lab"; //Enter SSID
-const char* password = "expiring-unstuck-slider"; //Enter Password
+// const char* ssid = "dsv-extrality-lab"; //Enter SSID
+// const char* password = "expiring-unstuck-slider"; //Enter Password
+
+const char* ssid = "TP-Link_33A7"; //Enter SSID
+const char* password = "53247476"; //Enter Password
 
 //const char* websockets_server_host = "172.20.10.14"; //Enter server address
-const char* websockets_server_host = "10.204.0.6"; //Enter server address
+//const char* websockets_server_host = "10.204.0.6"; //Enter server address
+const char* websockets_server_host = "192.168.0.189"; //Enter server address
 
-#define WEBSOCKETS_PORT     7890
+#define WEBSOCKETS_PORT     8080
 
 const uint16_t websockets_server_port = WEBSOCKETS_PORT; // Enter server port
 

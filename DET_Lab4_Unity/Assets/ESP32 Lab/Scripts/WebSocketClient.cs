@@ -10,7 +10,7 @@ public class WebSocketClient : MonoBehaviour
     [SerializeField]
 	private string IPAdress; //The IP Adress of the Server you want to connect to
     [SerializeField]
-	private int Port = 32323; //The Port your WebSocket Connection will "talk" to
+	private int Port = 8080; //The Port your WebSocket Connection will "talk" to
     
 	private WebSocket webSocket;
 
@@ -51,8 +51,11 @@ public class WebSocketClient : MonoBehaviour
 	
 	
 		
-	async void SendWebSocketMessage(string text) //Sends Websocket Message to Server for the ESP32 to receive
+	public async void SendWebSocketMessage(string text) //Sends Websocket Message to Server for the ESP32 to receive
 	{
+
+		Debug.Log("Sending message to server: " + text);
+
 		if (webSocket.State == WebSocketState.Open)
 		{
 			// Sending plain text socket
@@ -69,9 +72,12 @@ public class WebSocketClient : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update()
+	async void Update()
 	{
 		webSocket.DispatchMessageQueue();
+		if(Input.GetKeyDown(KeyCode.Space)){
+			SendWebSocketMessage("Pressed Space");
+		}
 
     }
 	
@@ -80,6 +86,8 @@ public class WebSocketClient : MonoBehaviour
 	{
 		await webSocket.Close();
 	}
+
+
 	
 }
 
