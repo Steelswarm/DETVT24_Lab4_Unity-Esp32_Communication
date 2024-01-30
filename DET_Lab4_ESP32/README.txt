@@ -30,13 +30,16 @@
 ********************************** ESP32 Setup *************************************
 ************************************************************************************
 ** Step 1 - Make sure you have the ArduinoIDE (or equivalent installed)	       	  **
-** Step 2 - Open the "Esp32_Client_test" file 				       	  **
-** Step 3 - Install the "WebSockets2_Generic" library and all it's dependencies   **
+** Step 2 - Install the ESP32 plugin by going to "Tools -> Board ->               **
+            Boards Manager" and then searching for "Esp32".                       **
+            Install the "Esp32 by Espresif option 	       	                  **
+** Step 3 - Open the "Esp32_Client_test" file 				       	  **
+** Step 4 - Install the "WebSockets2_Generic" library and all it's dependencies   **
 **	    (To do so go to "Tools -> Manage Libraries" and search for it)        **
-** Step 4 - Check if the network settings and IP address and correct on 	  **
+** Step 5 - Check if the network settings and IP address and correct on 	  **
 **	    the "defines.h" file (ssid, password, server_host, server_port)       **
-** Step 5 - Select the correct board and upload the code			  **
-** Step 6 - Navigate to "Serial Monitor" (it's on the right corner of the Arduino **
+** Step 6 - Select the correct board and upload the code			  **
+** Step 7 - Navigate to "Serial Monitor" (it's on the right corner of the Arduino **
 **	    IDE), and change it to "115200 baud"				  **
 **										  **
 ** If you performed the correct steps above your ESP32 should say something like: **
