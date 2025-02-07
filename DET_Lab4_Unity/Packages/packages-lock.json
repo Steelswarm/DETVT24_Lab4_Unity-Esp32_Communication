@@ -13,11 +13,11 @@
       "source": "registry",
       "dependencies": {
         "com.meta.xr.sdk.core": "60.0.0",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.ai.navigation": "1.1.4",
         "com.meta.xr.sdk.interaction": "60.0.0",
         "com.meta.xr.sdk.interaction.ovr": "60.0.0",
-        "com.unity.ai.navigation": "1.1.4",
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
-        "com.unity.textmeshpro": "3.0.6"
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
       "url": "https://packages.unity.com"
     },
@@ -26,18 +26,18 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.mrutilitykit": "60.0.0",
-        "com.meta.xr.sdk.audio": "60.0.0",
         "com.meta.xr.sdk.core": "60.0.0",
-        "com.meta.xr.sdk.haptics": "60.0.0",
-        "com.meta.xr.sdk.interaction": "60.0.0",
-        "com.meta.xr.sdk.interaction.ovr": "60.0.0",
-        "com.meta.xr.sdk.platform": "60.0.0",
+        "com.meta.xr.sdk.audio": "60.0.0",
         "com.meta.xr.sdk.voice": "60.0.0",
+        "com.meta.xr.simulator": "60.0.0",
+        "com.meta.xr.sdk.haptics": "60.0.0",
+        "com.meta.xr.mrutilitykit": "60.0.0",
+        "com.meta.xr.sdk.platform": "60.0.0",
+        "com.meta.xr.sdk.interaction": "60.0.0",
         "com.meta.xr.sdk.voice.composer": "60.0.0",
+        "com.meta.xr.sdk.interaction.ovr": "60.0.0",
         "com.meta.xr.sdk.voice.dictation": "60.0.0",
-        "com.meta.xr.sdk.voice.telemetry": "60.0.0",
-        "com.meta.xr.simulator": "60.0.0"
+        "com.meta.xr.sdk.voice.telemetry": "60.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -69,8 +69,8 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.textmeshpro": "3.0.6",
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
       },
       "url": "https://packages.unity.com"
     },
@@ -89,8 +89,8 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.interaction.ovr": "60.0.0",
-        "com.meta.xr.sdk.sharedassets": "60.0.0"
+        "com.meta.xr.sdk.sharedassets": "60.0.0",
+        "com.meta.xr.sdk.interaction.ovr": "60.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -99,8 +99,8 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "60.0.0",
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.meta.xr.sdk.core": "60.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -109,8 +109,8 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.textmeshpro": "3.0.6",
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
       },
       "url": "https://packages.unity.com"
     },
@@ -163,16 +163,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.11",
+      "version": "1.8.18",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.mathematics": "1.2.1"
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.2.0",
+      "version": "2.5.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -186,7 +187,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.27",
+      "version": "3.0.34",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -225,7 +226,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "14.0.9",
+      "version": "14.0.11",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -236,23 +237,23 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "14.0.9",
+      "version": "14.0.11",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.8.9",
-        "com.unity.render-pipelines.core": "14.0.9",
-        "com.unity.shadergraph": "14.0.9",
+        "com.unity.render-pipelines.core": "14.0.11",
+        "com.unity.shadergraph": "14.0.11",
         "com.unity.render-pipelines.universal-config": "14.0.9"
       }
     },
     "com.unity.render-pipelines.universal-config": {
-      "version": "14.0.9",
+      "version": "14.0.10",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.9"
+        "com.unity.render-pipelines.core": "14.0.10"
       }
     },
     "com.unity.searcher": {
@@ -263,11 +264,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "14.0.9",
+      "version": "14.0.11",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "14.0.9",
+        "com.unity.render-pipelines.core": "14.0.11",
         "com.unity.searcher": "4.9.2"
       }
     },
@@ -283,7 +284,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -296,9 +297,9 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -313,7 +314,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.1",
+      "version": "1.9.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -323,7 +324,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.10",
+      "version": "2.1.11",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -337,15 +338,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "4.1.2",
+      "version": "4.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
