@@ -1,6 +1,6 @@
 ![SU Logo](/SU_Logo/SU_logo.png "Stockholm University")
 
-# Design for Emerging Technologies (DET), Stockholm University VT25 Lab Session 4: Unity-Esp32 Communication
+# Design for Emerging Technologies (DET), Stockholm University - Lab Session 4: Unity-Esp32 Communication
 
 ## ESP32 Instructions
 

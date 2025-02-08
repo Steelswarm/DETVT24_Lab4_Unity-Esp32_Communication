@@ -1,22 +1,22 @@
 ![SU Logo](./SU_Logo/SU_logo.png "Stockholm University")
 
-# Design for Emerging Technologies (DET), Stockholm University VT25 Lab Session 4: Unity-Esp32 Communication
- This repository serves as a template to help students create their own IOT apps using ESP32 and Meta Quest HMDs running applications using the Unity Game Engine.
-
+# Design for Emerging Technologies (DET), Stockholm University - Lab Session 4: Unity-Esp32 Communication
+This repository was created as an initial template for students to use when developing basic applications with IoT devices, such as the ESP32, Meta Quest HMDs, and the Unity Game Engine. Its contents serve as a tutorial for future tasks in the Design for Emerging Technologies (DET) course at Stockholm University.
 
  ## Dependencies
  
   This project makes use of the following hardware:
    - Esp32 Dev Board (we will be using either an [Esp32 WROOM](https://www.sparkfun.com/products/15663) or [Esp32-S2 WROOM](https://www.sparkfun.com/products/17743) from SparkFun Electronics)
-   - [Meta Quest 2](https://www.meta.com/se/en/quest/), Pro or 3 (however you can still download this project and run it without a headset)
+   - Any [Meta Quest](https://www.meta.com/se/en/quest/) series headset (with the exception of Quest 1). There is also an example that does not require a headset
 
 This project makes use of the following software:
  - [Unity](https://unity.com/download) v2022.3.53f1 or above
  - [Arduino IDE](https://www.arduino.cc/en/software) v2.3.4 or above
 
 This project makes use of the following plugins or libraries:
-- [Meta XR All-in-one SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-all-in-one-sdk-269657) v72 (Unity)
-- [NativeWebSockets](https://github.com/endel/NativeWebSocket) v1.1.4 (Unity)
+- [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169) v72 (Unity)
+- [Meta XR Interaction SDK](https://assetstore.unity.com/packages/p/meta-xr-interaction-sdk-265014) v72 (Unity)
+- [NativeWebSockets](https://github.com/endel/NativeWebSocket) v1.1.5 (Unity)
 - [ESP32 Package](https://github.com/espressif/arduino-esp32) v3.1.1 (ArduinoIDE)
 - ["WebSockets Library"](https://www.arduinolibraries.info/libraries/web-sockets) v2.6.1(ArduinoIDE)
 - ["WifiWebServer Library"](https://docs.arduino.cc/libraries/wifiwebserver/) v1.10.1 (ArduinoIDE)
@@ -27,13 +27,5 @@ This project makes use of the following plugins or libraries:
  - [Download Unity](https://unity.com/download)
 
 
-
-
-
-
-### Deprecated
-
-
-
- - [Installing Python on different OS](https://realpython.com/installing-python/)
- - [Building a Websocket Server with Python](https://codedamn.com/news/python/how-to-build-a-websocket-server-in-python)
+---
+Made by: António Pinheiro Braga - antonio.braga@dsv.su.se

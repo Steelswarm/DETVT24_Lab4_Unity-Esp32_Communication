@@ -9,8 +9,8 @@
 #include <WebSocketsServer.h>
 //-----------------------------------------------
 
-const char* ssid = "dsv-extrality-lab";
-const char* password = "expiring-unstuck-slider";
+const char* ssid = "ReplaceWithNetworkName";
+const char* password = "ReplaceWithNetworkPassword";
 
 //-----------------------------------------------
 #define BUILTIN_LED 13 //Default ESP32-S2 Sparkfun Built in LED
